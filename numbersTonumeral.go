@@ -15,7 +15,7 @@ func main(){
 	
 		fmt.Println("Enter number: ")
 		fmt.Scan(&n)
-
+	
 		result:=numberToWords(n)
 		if(n<0){
 			fmt.Println("negative" + " " + result)
